@@ -1,0 +1,10 @@
+.barrage{ position: fixed;bottom: 100px;right: -500px;display: inline-block;width: 500px;z-index: 99999;}
+.barrage .barrage_box{ background-color: rgba(100, 100, 100, 0.5);height: 40px;display: inline-block;border-radius: 25px;transition: all .3s;}
+.barrage .barrage_box .float-left{float: left !important;}
+.barrage .barrage_box .avatar{ display: inline-block;width: 40px;height: 40px;border-radius: 50%;overflow: hidden;}
+.barrage .barrage_box .avatar img{ width: 100%;height: 100%;}
+.barrage .barrage_box .info{ max-width: 360px;height: 40px;overflow: hidden;font-size: 12px;font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;color: white;padding:2px 5px;}
+.barrage .barrage_box .info .title{ font-weight: bold;}
+.barrage .barrage_box .info .content{ color:darkturquoise;height: 18px;line-height: 18px;overflow: hidden;text-overflow: ellipsis;}
+.barrage .barrage_box .thumb{display: inline-block;width: 64px;height: 64px;border-radius: 50%;overflow: hidden;margin-top: -12px;}
+.barrage .barrage_box .thumb img{ width: 100%;height: 100%;}
